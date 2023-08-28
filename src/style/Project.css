@@ -1,0 +1,123 @@
+.Project-div {
+  margin-top: 60px;
+}
+
+.Project-card {
+  background-color: #1E90FF;
+}
+
+.card {
+  background-color: #1E90FF;
+}
+.ant-card-body{
+  width: 100%;
+}
+.traitForProject {
+  border-bottom: 3px solid #ffa500;
+  width: 250px;
+  margin-left: 400px;
+  margin-top: -45px;
+}
+
+.HeaderOfProjectBloc {
+  width: 99%;
+  background-color: #0e87ff;
+  border-radius: 5px;
+  margin: -5px 0 10px 0;
+
+}
+
+.githubIcon {
+  margin:5px 0 0 73%;
+  display: inline-block;
+}
+.FolderIcon{
+  margin:5px 0 0 5px;
+}
+.HeadLineProject{
+  margin-top: 8%;
+  color: rgb(185, 185, 185);
+}
+.Details{
+  color: #cdcdcd;
+  font-size: 16px;
+}
+.Tech{
+  color: #cdcdcd;
+  margin-top: 20%;
+}
+
+
+.ant-card {
+  display: inline-flex;
+  margin: 60px 1% 10px 0%;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  padding-left: 50px;
+  width: 100%;
+}
+
+.exp {
+  font-size: 70px;
+  margin-left: 150px;
+  margin-top: -100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-title {
+    font-size: 36px;
+    margin-left: 0px;
+    margin-top: 200px;
+
+  }
+
+  .Pr {
+    margin-top: 200px;
+  }
+
+  .bgimg {
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    margin-top: 90px;
+  }
+
+  .traitForProject {
+    display: none;
+  }
+  .githubIcon {
+    margin:5px 0 0 68%;
+    display: inline-block;
+  }
+  .FolderIcon{
+    margin:5px 0 0 5px;
+  }
+
+}

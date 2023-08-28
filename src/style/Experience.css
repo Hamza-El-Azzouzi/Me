@@ -1,0 +1,111 @@
+.exp {
+  font-size: 70px;
+  margin-left: 150px;
+  margin-top: -100px;
+}
+
+.traitForExp {
+  border-bottom: 3px solid #FFA500;
+  width: 250px;
+  margin-left: 505px;
+  margin-top: -45px;
+
+}
+
+
+.tabs {
+  
+  width: 900px;
+  margin-left: 230px;
+  margin-top: 70px;
+
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  padding-left: 70px;
+  width: 100%;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(10vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.ExperienceDuration {
+  color: #0077b5;
+}
+
+.ExperienceEmplacement {
+  color: #1e90ff;
+}
+.ExperienceUl{
+  list-style: none;
+}
+.list-icon{
+padding-right: 5px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .Pr {
+    margin-top: 200px;
+  }
+
+  .traitForExp {
+    display: none;
+  }
+
+  .exp {
+    font-size: 36px;
+  }
+
+  .section-title {
+    font-size: 36px;
+    margin-top: 200px;
+  }
+
+  .tabs {
+    width: fit-content;
+    margin: 3% 0 0 5px;
+    display: 'flex';
+    flex-direction: 'column';
+    align-items: 'flex-start';
+  }
+  .ExperienceUl{
+    margin-left: -15px;
+  }
+
+}
