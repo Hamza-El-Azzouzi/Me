@@ -1,6 +1,6 @@
 
 import '../style/About.css';
-import Me from '../img/me2.jpg'
+import Me from '../img/Me.jpg'
 export default function About() {
     const dataTec = ["NodeJs",
         "JavaScript ES6+",
@@ -40,10 +40,6 @@ export default function About() {
                                 </li>
                                 </div>
                             ))}
-
-
-
-
                 </ul>
                 <p>Outside of work, I'm interested in following the developments of science. I also play strategy game. </p>
             </div>
