@@ -2,7 +2,8 @@ import '../style/Project.css'
 import { Card } from 'antd';
 import React, { useState, useEffect } from 'react';
 
-
+// Most be the project mor detaols in the vertical way
+// the picture should be in the fist section
 
 export default function Project() {
     const [marginLeft, setMarginLeft] = useState('200px');
@@ -10,7 +11,7 @@ export default function Project() {
     const [hieght, setHieght] = useState('370px');
     const Project = [
         {
-            link: "https://github.com/ZakariaElqarch/Projet-Stage/tree/hamza-convention",
+            link: "https://github.com/Hamza-El-Azzouzi/Convention-Projet",
             Title: "Agreement Management",
             details: "It's applcation created for Province Of Taza help them to manage their Agreement ",
             technologies: "PHP(Laravel), Jquery, BootStrap, MySQL"
@@ -21,12 +22,6 @@ export default function Project() {
             details: "It's E-com Application that can help to find what's kind of goods you want ",
             technologies: "PHP(Laravel), ReactJs, Api, MySQL"
         },
-        {
-            link: "",
-            Title: "QuiZi",
-            details: "Web Site to Test your Skills in Programming Languages Based On AI (COMING SOON 😉) ",
-            technologies: "PHP(Laravel), ReactJs, Api, MySQL"
-        }
     ]
     useEffect(() => {
         const updateSize = () => {
@@ -67,7 +62,7 @@ export default function Project() {
                             {
                                 height: hieght,
                                 width: width,
-                                marginLeft: index === 0 ? marginLeft : '0px'
+                                // marginLeft: index === 0 ? marginLeft : '0px'
                             }
                         }
                     >
@@ -90,7 +85,7 @@ export default function Project() {
                             {
                                 height: hieght,
                                 width: width,
-                                marginLeft: index === 0 ? marginLeft : '0px'
+                                // marginLeft: index === 0 ? marginLeft : '0px'
                             }
                         }
                     >

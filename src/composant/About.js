@@ -2,17 +2,16 @@
 import '../style/About.css';
 import Me from '../img/Me.jpg'
 export default function About() {
-    const dataTec = ["NodeJs",
+    const dataTec = [
+        "NodeJs",
         "JavaScript ES6+",
-        "python",
         "ReactJs",
-        "PHP",
+        "Golang",
+        "PHP (Laravel)",
         "HTML\\CSS",
-        " Mysql\\Mongodb",
-        "Laravel",
-        "Cloud Nativ (cloud Azure \\ Docker)",
+        "Mysql\\Mongodb",
+        "Cloud Native (Azure Cloud \\ Docker)",
         "CI/CD (jenkins)",
-        "WordPress",
     ]
 
 
