@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react';
 // the picture should be in the fist section
 
 export default function Project() {
-    const [marginLeft, setMarginLeft] = useState('200px');
+    // const [marginLeft, setMarginLeft] = useState('200px');
     const [width, setWidth] = useState('350px');
     const [hieght, setHieght] = useState('370px');
     const Project = [
@@ -26,11 +26,11 @@ export default function Project() {
     useEffect(() => {
         const updateSize = () => {
             if (window.innerWidth < 600) {
-                setMarginLeft('0px');
+                // setMarginLeft('0px');
                 setWidth('310px');
                 setHieght('340px');
             } else {
-                setMarginLeft('200px');
+                // setMarginLeft('200px');
                 setWidth('350px');
                 setHieght('370px');
             }
