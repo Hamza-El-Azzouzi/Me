@@ -49,10 +49,12 @@
   text-align: left;
 }
 .content{
-  width: 1536px;
+  /* width: 1536px; */
   /* overflow: scroll; */
   overflow-x: hidden;
   overflow-y: hidden;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 ::selection {
   background: var(--lightest-navy); /* WebKit/Blink Browsers */

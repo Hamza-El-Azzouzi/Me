@@ -15,11 +15,11 @@ function Me() {
       } else {
         clearInterval(typingInterval);
       }
-    }, 100);
+    }, 20);
 
     const cursorInterval = setInterval(() => {
       setCursorVisible(prevCursorVisible => !prevCursorVisible);
-    }, 400);
+    }, 500);
 
     return () => {
       clearInterval(typingInterval);
